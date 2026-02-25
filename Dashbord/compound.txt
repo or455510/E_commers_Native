@@ -1,0 +1,245 @@
+
+        <!-- <div class="more-btn-up">
+                <div class="elhalah">
+                    <select name="elhalah" id="elwlaya">
+                        <option disabled selected value="الولاية"> اختر الحالة</option>
+    
+                        <option value="تم الطلب">تم الطلب</option>
+                        <option value="يتم التجهيز">يتم التجهيز</option>
+                        <option value="في انتظار االشحن">في انتظار االشحن</option>
+                        <option value="تم الشحن">تم الشحن</option>
+                        <option value="في الطريق اليك">في الطريق اليك</option>
+                        <option value="تم الاستلام">تم الاستلام</option>
+                        <option value="الأغواط">لا يرد</option>
+                        <option value="الأغواط">تم التأجيل</option>
+                        <option value="الأغواط">عنوان خاطيء</option>
+                        <option value="الأغواط">تم الالغاء</option>
+                        <option value="الأغواط">تم الارجاع</option>
+                    </select>
+                </div>
+            </div> -->
+        <!-- 
+
+        <div class="last-order">
+
+            <span onclick="showSec('.show-serch-order')" class="btn btn-filter">بحث مخصص</span>
+
+
+
+            <div class="orders-section">
+
+
+
+
+                <div class="show-serch-order">
+                    <h4 class="title-order"> ابحث عن الطلب</h4>
+                    <i onclick="closeSec('.show-serch-order')" class="fa-solid fa-circle-xmark"></i>
+
+                    <form action="">
+                        <div class="all-input">
+                            <div class="inp">
+                                <label for="">رقم الطلب</label>
+
+                                <input type="text" name=" " id="" placeholder="رقم الطلب">
+                            </div>
+
+                            <div class="inp">
+                                <label for="">اسم العميل</label>
+                                <input type="text" name="" id="" placeholder="اسم العميل">
+                            </div>
+
+                            <div class="inp">
+                                <label for="">رقم الهاتف</label>
+                                <input type="text" name="" id="" placeholder="رقم الهاتف">
+                            </div>
+
+                            <div class="inp">
+                                <label for="">التاريخ</label>
+                                <input type="text" name="" id="" placeholder="التاريخ">
+                            </div>
+                        </div>
+                        <button class="btn">بحث</button>
+                    </form>
+
+                </div>
+
+
+
+                <div class="show-edit-order">
+
+                    <h4 class="title-order">تعديل الطلب</h4>
+
+                    <i onclick="closeSec('.show-edit-order')" class="fa-solid fa-circle-xmark"></i>
+
+                    <form action="">
+
+                        <div class="all-input">
+
+                           <div class="inp">
+                                <label for="">اسم العميل</label>
+                                <input type="text" name="customer_name" value="<?php echo $orderItems['customer_name']; ?>" id="" placeholder="اسم العميل">
+                            </div>
+
+                            <div class="inp">
+                                <label for="">المجموع</label>
+                                <input type="text" name="total" value="<?php echo $orderItems['total']; ?>" id="" placeholder="المجموع">
+                            </div>
+
+                            <div class="inp">
+                                <label for="">العنوان</label>
+                                <input type="text" name="address" value="<?php echo $orderItems['address']; ?>" id="" placeholder="العنوان">
+                            </div>
+
+
+
+                            <div class="inp">
+                                <label for="">ادخل كوبون الخصم</label>
+                                <input type="text" name="coupon_code" id="" placeholder="رقم الكوبون">
+                            </div>
+<!-- 
+                            <div class="table-edi-order">
+                                <table>
+                                    <thead>
+                                        <tr>
+
+
+                                            <td> الطلبات</td>
+                                            <td>الكمية</td>
+                                            <td>سعر الوحدة</td>
+                                            <td>الاجمالي</td>
+                                            <td>حذف</td>
+
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                            <tr>
+
+                                                <td></td>
+                                                <td><input type="number" name="quantity" value=""></td>
+                                                <td>جنيه</td>
+                                                <td>جنيه</td>
+                                                <td> <i class="fa-solid fa-trash"></i></td>
+
+
+
+                                            </tr>
+
+                                        
+
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div> --> -->
+
+        <!-- <div class="table-add-order">
+                                <h5>اضافة منتج</h5>
+                                <form action="../add_to_cart.php" method="post">
+                                    <div class="inp esm-montg">
+                                        <label for="">ادخل اسم المنتج</label>
+                                        <input type="text" name="product_name" id="" placeholder=" ادخل اسم المنتج">
+                                    </div>
+
+                                    <div class="inp count-montg">
+                                        <label for="">ادخل الكمية</label>
+                                        <input type="number" name="quantity" id="" placeholder="ادخل الكمية ">
+                                    </div>
+
+                                    <button class="btn">اضافة المنتج</button>
+                                    <div class="all-price">
+                                        <p>الأجمالي : <span><?php echo $_SESSION['total_price']; ?> جنيه</span></p>
+                                        <p>سعر الدلفري : <span>40 جنيه</span></p>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <button class="btn">تعديل</button>
+                        </div>
+
+                    </form>
+
+                </div> -->
+,؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟ظظظظظ
+
+<?php
+function getProductPhotos($product_id){
+    global $db;
+    $stmt = $db->prepare("SELECT * FROM product_photos WHERE product_id = ?");
+    $stmt->execute([$product_id]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+?>
+
+<!-- مثال عرض الصور -->
+<?php foreach(getProduct() as $product): ?>
+    <h3><?php echo $product['name']; ?></h3>
+    <?php foreach(getProductPhotos($product['id']) as $photo): ?>
+        <img src="uploads/products/<?php echo $photo['image']; ?>" width="150">
+    <?php endforeach; ?>
+<?php endforeach; ?>
+<?php
+require_once 'config/db.php'; // الاتصال بقاعدة البيانات
+require_once 'config/functions.php';
+
+if(isset($_POST['upload_photo'])){
+    $product_id = $_POST['product_id'];
+
+    if(isset($_FILES['photo']) && $_FILES['photo']['error'] === 0){
+        $file_tmp = $_FILES['photo']['tmp_name'];
+        $file_name = $_FILES['photo']['name'];
+        $file_ext = strtolower(pathinfo($file_name, PATHINFO_EXTENSION));
+
+        // تحقق من نوع الصورة
+        $allowed = ['jpg','jpeg','png','gif'];
+        if(in_array($file_ext, $allowed)){
+            // مسار حفظ الصورة
+            $upload_dir = 'uploads/products/';
+            if(!is_dir($upload_dir)){
+                mkdir($upload_dir, 0777, true);
+            }
+
+            // اسم فريد لتجنب تكرار الملفات
+            $new_name = uniqid() . '.' . $file_ext;
+            $destination = $upload_dir . $new_name;
+
+            if(move_uploaded_file($file_tmp, $destination)){
+                // حفظ اسم الصورة في قاعدة البيانات
+                global $db;
+                $stmt = $db->prepare("INSERT INTO product_photos (product_id, image) VALUES (?, ?)");
+                if($stmt->execute([$product_id, $new_name])){
+                    echo "تم رفع الصورة بنجاح!";
+                } else {
+                    echo "حدث خطأ أثناء حفظ الصورة في قاعدة البيانات.";
+                }
+            } else {
+                echo "فشل رفع الصورة على السيرفر.";
+            }
+        } else {
+            echo "صيغة الملف غير مسموح بها.";
+        }
+    } else {
+        echo "لم يتم اختيار أي صورة أو حدث خطأ أثناء الرفع.";
+    }
+}
+?>
+<form action="upload_product_photo.php" method="POST" enctype="multipart/form-data">
+    <label for="product">اختر المنتج:</label>
+    <select name="product_id" id="product">
+        <?php
+        require_once 'config/functions.php';
+        foreach(getProduct() as $product){
+            echo "<option value='{$product['id']}'>{$product['name']}</option>";
+        }
+        ?>
+    </select>
+
+    <label for="photo">اختر الصورة:</label>
+    <input type="file" name="photo" id="photo" required>
+
+    <button type="submit" name="upload_photo">رفع الصورة</button>
+</form>
